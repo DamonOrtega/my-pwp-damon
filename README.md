@@ -1,2 +1,2 @@
 # my-pwp-damon
-personal webpage project
+This a website to showcase the custom stereo build in a Toyota FJ Cruiser.
