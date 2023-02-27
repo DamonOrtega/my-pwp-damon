@@ -1,68 +1,13 @@
+body{
+    font-family: "Arial Black", sans-serif;
+    color: #0344FF;
+    background-image: url("images/background3.jpg");
+    background-color: #335EFF;
 
-body {
-    font-family: 'Verdana', sans-serif;
-    color: #333;
-}
-.slider {
-    width: 80%;
-    margin: 0 auto;
 }
 
-.slider img {
-    width: 100%;
-}
-
-.slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: none;
-}
-
-.slick-prev:before, .slick-next:before {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-    opacity: 0.75;
-    color: white;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev {
-    left: -25px;
-}
-
-[dir='rtl'] .slick-prev {
-    right: -25px;
-    left: auto;
-}
-
-.slick-prev:before {
-    content: '←';
-}
-
-.slick-next {
-    right: -25px;
-}
-
-[dir='rtl'] .slick-next {
-    right: auto;
-    left: -25px;
-}
-
-.slick-next:before {
-    content: '→';
+.bg-image {
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 400px;
 }
